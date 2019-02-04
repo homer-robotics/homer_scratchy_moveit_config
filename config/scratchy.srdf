@@ -32,6 +32,15 @@
         <joint name="m1n6s200_joint_5" value="0" />
         <joint name="m1n6s200_joint_6" value="0.9329" />
     </group_state>
+
+    <group_state name="handover" group="arm">
+        <joint name="m1n6s200_joint_1" value="-2.1515" />
+        <joint name="m1n6s200_joint_2" value="1.4777" />
+        <joint name="m1n6s200_joint_3" value="4.7827" />
+        <joint name="m1n6s200_joint_4" value="-0.0571" />
+        <joint name="m1n6s200_joint_5" value="0" />
+        <joint name="m1n6s200_joint_6" value="0.9329" />
+    </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="gripper" parent_link="m1n6s200_link_6" group="arm" parent_group="arm" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
