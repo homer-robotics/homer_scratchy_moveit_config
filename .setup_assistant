@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: homer_lisa_description
+    relative_path: urdf/scratchy.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/scratchy.srdf
+  CONFIG:
+    author_name: Raphael Memmesheimer
+    author_email: raphael@uni-koblenz.de
+    generated_timestamp: 1549309661
