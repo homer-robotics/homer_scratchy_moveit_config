@@ -303,7 +303,13 @@
     <disable_collisions link1="m1n6s200_link_base" link2="rear_left_wheel" reason="Never" />
     <disable_collisions link1="m1n6s200_link_base" link2="rear_right_wheel" reason="Never" />
     <disable_collisions link1="m1n6s200_link_base" link2="xtion" reason="Never" />
-    <disable_collisions link1="m1n6s200_link_finger_base_1" link2="m1n6s200_link_finger_base_2" reason="Never" />
+
+    <disable_collisions link1="m1n6s200_link_finger_base_1" link2="m1n6s200_link_finger_gripper_2" reason="User" />
+    <disable_collisions link1="m1n6s200_link_finger_base_2" link2="m1n6s200_link_finger_gripper_1" reason="User" />
+    <disable_collisions link1="m1n6s200_link_finger_base_2" link2="m1n6s200_link_finger_gripper_2" reason="Adjacent" />
+    <disable_collisions link1="m1n6s200_link_finger_gripper_1" link2="m1n6s200_link_finger_gripper_2" reason="User" />
+
+    <!--<disable_collisions link1="m1n6s200_link_finger_base_1" link2="m1n6s200_link_finger_base_2" reason="Never" />-->
     <disable_collisions link1="m1n6s200_link_finger_base_1" link2="m1n6s200_link_finger_gripper_1" reason="Adjacent" />
     <disable_collisions link1="m1n6s200_link_finger_base_1" link2="p_base_front" reason="Never" />
     <disable_collisions link1="m1n6s200_link_finger_base_1" link2="p_base_left" reason="Never" />
@@ -311,7 +317,7 @@
     <disable_collisions link1="m1n6s200_link_finger_base_1" link2="p_base_right" reason="Never" />
     <disable_collisions link1="m1n6s200_link_finger_base_1" link2="rear_left_wheel" reason="Never" />
     <disable_collisions link1="m1n6s200_link_finger_base_1" link2="rear_right_wheel" reason="Never" />
-    <disable_collisions link1="m1n6s200_link_finger_base_2" link2="m1n6s200_link_finger_gripper_2" reason="Adjacent" />
+    <!--<disable_collisions link1="m1n6s200_link_finger_base_2" link2="m1n6s200_link_finger_gripper_2" reason="Adjacent" />-->
     <disable_collisions link1="m1n6s200_link_finger_base_2" link2="p_base_front" reason="Never" />
     <disable_collisions link1="m1n6s200_link_finger_base_2" link2="p_base_left" reason="Never" />
     <disable_collisions link1="m1n6s200_link_finger_base_2" link2="p_base_rear" reason="Never" />
@@ -421,4 +427,5 @@
     <disable_collisions link1="rear_left_wheel" link2="rear_right_wheel" reason="Adjacent" />
     <disable_collisions link1="rear_left_wheel" link2="xtion" reason="Never" />
     <disable_collisions link1="rear_right_wheel" link2="xtion" reason="Never" />
+
 </robot>
