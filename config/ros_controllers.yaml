@@ -10,6 +10,7 @@ scratchy:
 # Settings for ros_control hardware interface
   hardware_interface:
     joints:
+      - map_to_base_link
       - m1n6s200_joint_1
       - m1n6s200_joint_2
       - m1n6s200_joint_3
@@ -25,4 +26,14 @@ scratchy:
     type: joint_state_controller/JointStateController
     publish_rate: 50
   controller_list:
-    []
+    - name: arm_controller
+      action_ns: follow_joint_trajectory
+      default: True
+      type: FollowJointTrajectory
+      joints:
+        - m1n6s200_joint_1
+        - m1n6s200_joint_2
+        - m1n6s200_joint_3
+        - m1n6s200_joint_4
+        - m1n6s200_joint_5
+        - m1n6s200_joint_6
