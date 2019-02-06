@@ -61,12 +61,12 @@
         <joint name="m1n6s200_joint_6" value="0.9546" />
     </group_state>
     <group_state name="transport_upright" group="arm">
-        <joint name="m1n6s200_joint_1" value="-2.1515" />
-        <joint name="m1n6s200_joint_2" value="1.4777" />
-        <joint name="m1n6s200_joint_3" value="4.7827" />
-        <joint name="m1n6s200_joint_4" value="0.2256" />
+        <joint name="m1n6s200_joint_1" value="-3.1415" />
+        <joint name="m1n6s200_joint_2" value="3.5302" />
+        <joint name="m1n6s200_joint_3" value="3.3233" />
+        <joint name="m1n6s200_joint_4" value="0.9199" />
         <joint name="m1n6s200_joint_5" value="-2.0654" />
-        <joint name="m1n6s200_joint_6" value="0.9329" />
+        <joint name="m1n6s200_joint_6" value="0.6769" />
     </group_state>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="map_to_base_link" type="planar" parent_frame="map" child_link="base_link" />
